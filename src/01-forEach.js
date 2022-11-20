@@ -28,6 +28,7 @@ function printAllSongTitles(songs) {
  */
 function printSongDetails(songs) {
   return songs.forEach((log) => console.log(`${log.title} by ${log.artist}`))
+  
 }
 
 /**
